@@ -10,12 +10,12 @@ export default function Home() {
       <p className="text-lg mb-6">
         This photobooth captures <strong>4 pictures</strong> in a row.
       </p>
-      <a href="/booth">
+
+      <Link href="/booth">
         <button className="border-2 border-black px-4 py-2 rounded-full bg-white hover:bg-pink-200 transition">
           Start
         </button>
-      </a>
+      </Link>
     </div>
   );
 }
-
